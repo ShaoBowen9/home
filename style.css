@@ -427,8 +427,7 @@ p.stratPgPar{
 
 /*Reference Page*/
 .referenceTableSize > h3, .referenceTableSize > h2{
-	width:50%;
-	
+	width:60%;
 	border: 3px solid black;
 	border-radius: 9px;
 }
