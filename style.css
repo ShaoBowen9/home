@@ -441,7 +441,7 @@ p.stratPgPar{
 }
 
 /*Reference Page Table/Heading Background*/
-.referencePgTable{
+#referencePgTable{
 	background-image: linear-gradient(to top, #fcd1b3, #fcc6b3);
 	
 	border: 3px solid black;
