@@ -439,6 +439,7 @@ p.stratPgPar{
 .referencePgTable{
 	background-image: linear-gradient(to top, #fcd1b3, #fcc6b3);
 	
+	color:red;
 	border: 3px solid black;
 	border-radius: 9px;
 }
