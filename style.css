@@ -456,7 +456,7 @@ p.stratPgPar{
 	border-radius: 9px;
 }
 
-.referencePgHeading{
+#referencePgHeading{
 	background-image: linear-gradient(to top, #f5b19a, #f79e81);
 	
 	color:red;
