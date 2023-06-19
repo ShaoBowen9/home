@@ -434,12 +434,7 @@ p.stratPgPar{
 }
 
 /*Reference table's column size contraint*/
-.referenceTableSize{
-	width:1000px;
-	
-	border: 3px solid black;
-	border-radius: 9px;
-}
+
 /*Reference Page Table/Heading Background*/
 .referencePgTable{
 	background-image: linear-gradient(to top, #fcd1b3, #fcc6b3);
