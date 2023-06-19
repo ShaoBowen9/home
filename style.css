@@ -1,0 +1,456 @@
+
+/*Navigation bar */
+table.nav{
+	margin-left: auto;
+	margin-right: auto;
+	background-image: linear-gradient(45deg, rgb(255,0,0), rgb(255,255,0), rgb(0,192,255), rgb(192,0,255));
+	border: 3px solid black;
+	border-radius: 9px;
+}
+
+tr.nav > th{
+	font-size: 20px;
+	border: 3px solid black;
+}
+
+tr.nav > th > a{
+	color: black;
+}
+
+th#logo > a > img{
+	width: 90px;
+	height: 80px;
+}
+
+/*-----------Homepage---------*/
+/*Homepage background img*/
+body#home{
+	background-image: url("imgs/backgrounds/homePgBackground.jpg");
+	background-size: cover;
+	background-repeat: repeat;
+}
+
+/*Homepage paragraphs/headings*/
+.homePgTitle{
+	font-family: "Times New Roman";
+	font-size: 40px;
+	
+	color: black;
+	background-image: linear-gradient(to top, #73C246, #498A24);
+	
+	text-align: center;
+	
+	border: 3px solid black;
+	border-radius: 9px;
+	
+}
+
+
+.homePgHeading{
+	font-family: "Times New Roman";
+	font-size: 24px;
+	
+	color: black;
+	background-image: linear-gradient(to top, #73C246, #498A24);
+	
+	text-align: center;
+	height: 30px;
+	
+	border-radius: 9px;
+}
+
+.homePgPar{
+	font-family: "Times New Roman";
+	font-weight: bolder;
+	font-size: 20px;
+	
+	color: black;
+	background-image: linear-gradient(to top, #B8FF8F, #61cf21);
+	
+	padding: 10px;
+	width:40%;
+	text-align: center;
+	margin-left: auto;
+	margin-right:auto;
+	
+	border-radius: 9px;
+}
+
+
+div#tableOfContent{
+	width: 250px;
+	height:500px;
+	
+	background-image: linear-gradient(to top, #B8FF8F, #61cf21);
+	
+	border: 2px solid black;
+	border-radius: 10px;
+	
+	padding: 20px;
+}
+
+div#tableOfContent > ol> li > a{
+	color: #10451e;
+	
+	line-height: 50pt;
+	font-size: 20px;
+	padding: 20px;
+}
+
+/*----------Introduction Page--------*/
+/*Intro Pg background img*/
+body#intro{
+	background-image: url("imgs/backgrounds/introPgBackground.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+/*Intro Images*/
+th#pikachuTeamBuilderImg > img{
+	width: 800px;
+	height: 200px;
+	
+	border: 3px solid black;
+	border-radius: 9px;
+}
+#introPokeShowdown{
+	border: 3px solid black;
+	border-radius: 9px;
+	
+	width: 100%;
+	height: 500px;
+}
+
+#introEgStrategy{
+	margin-right: 100px;
+	border-radius: 9px;
+	border: 3px solid black;
+}
+
+#introVGCExample{
+	width: 700px;
+	height:400px;
+	
+	border: 3px solid black;
+	border-radius: 9px;
+}
+
+#introBegin{
+	width:50%;
+	height: 50%;
+	
+	margin-left: 25%;
+}
+
+/*Intro paragraphs/headings*/
+.introHeading{
+	color: black;
+	background-image: linear-gradient(to top, #ADD8E6, #040273);
+	text-align: center;
+	
+	border: 3px solid black;
+	border-radius: 9px;
+}
+
+.introPar{ 
+	font-size: 18px;
+	
+	color: black;
+	background-image: linear-gradient(to top, #AAF8E6, #040FFF);
+	
+	margin-left: 10%;
+	padding: 10px;
+	width:80%;
+	
+	border: 3px solid black;
+	border-radius: 9px;
+}
+
+.introParLeft{
+	font-size: 18px;
+	line-height: 25pt;
+	
+	color: black;
+	background-image: linear-gradient(to top, #AAF8E6, #040FFF);
+	
+	margin-left: 40px;
+	margin-right: auto;
+	padding: 10px;
+	width:450px;
+	
+	border: 3px solid black;
+	border-radius: 9px;
+}
+
+.introParRight{
+	font-size: 18px;
+	
+	color: black;
+	background-image: linear-gradient(to top, #AAF8E6, #040FFF);
+	
+	margin-left: auto;
+	margin-right: 100px;
+	
+	padding: 10px;
+	width:60%;
+	
+	border: 3px solid black;
+	border-radius: 9px;
+}
+
+/*--------Common Info Page------------*/
+/*Common Info Background Img*/
+#cInfo{
+	background-image: url("imgs/backgrounds/cInfoBackground.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+/*cInfo Images and Iframes*/
+#typechart{
+	width: 95%;
+	height:300px;
+}
+
+
+
+#shedinjaAbility > img{
+	width:400px;
+	height:200px;
+	border: 3px solid black;
+	border-radius: 9px;
+}
+
+#pressure{
+	width:600px;
+	height:400px;
+	border: 3px solid black;
+	border-radius: 9px;
+}
+
+#baseStats{
+	width: 750px;
+	height:500px;
+	
+	margin-left: 300px;
+	
+	border:3px solid black;
+	border-radius: 9px;
+}
+
+#ivExample{
+	width: 700px;
+	height: 400px;
+}
+#evExample{
+	width: 700px;
+	height: 400px;
+}
+
+#natureExampleImg{
+	width: 700px;
+	height: 400px;
+	margin-left: 50px;
+	
+	border: 3px solid black;
+	border-radius: 9px;
+}
+/*Tables*/
+#baseStatTable{
+	background-image: linear-gradient(to top, #f7f0b7, #f7ca68);
+	border: 3px solid black;
+	border-radius: 9px;
+}
+
+#baseStatTable > tbody > tr > th, #baseStatTable > tbody > tr > td{
+	background-image: linear-gradient(to top, #fcf1c2, #fceeb3);
+	font-size: 16px;
+	font-weight: bold;
+	border: 2px solid black;
+	width: 500px;
+	border-radius: 9px;
+}
+
+/*Intro headings/paragraphs*/
+.cInfoHeading{
+	color: black;
+	background-image: linear-gradient(to top, #f0cd65, #c77f14);
+	text-align: center;
+	
+	border: 3px solid black;
+	border-radius: 9px;
+}
+
+.cInfoPar{ 
+	font-size: 18px;
+	
+	color: black;
+	background-image: linear-gradient(to top, #f7f0b7, #f7ca68);
+	
+	padding: 10px;
+	width:95%;
+	
+	border: 3px solid black;
+	border-radius: 9px;
+}
+
+.cInfoParLeft{ 
+	font-size: 18px;
+	
+	color: black;
+	background-image: linear-gradient(to top, #f7f0b7, #f7ca68);
+	
+	padding: 10px;
+	width: 500px;
+	margin-right: auto;
+	margin-left: 100px;
+	
+	border: 3px solid black;
+	border-radius: 9px;
+}
+
+.cInfoParRight{ 
+	font-size: 18px;
+	
+	color: black;
+	background-image: linear-gradient(to top, #f7f0b7, #f7ca68);
+	
+	margin-left: auto;
+	margin-right: 200px;
+	padding: 10px;
+	width:50%;
+	
+	border: 3px solid black;
+	border-radius: 9px;
+}
+
+#natureList{ 
+	font-size: 18px;
+	
+	color: black;
+	background-image: linear-gradient(to top, #f7f0b7, #f7ca68);
+	
+	padding: 10px;
+	width: 400px;
+	
+	border: 3px solid black;
+	border-radius: 9px;
+}
+
+/*----------Competitive Tiers Page---------------*/
+/*Background Image*/
+#compTiers{
+	background-image: url("imgs/backgrounds/compTiersBackground.jpg");
+	background-size: cover;
+	background-repeat: repeat;
+}
+
+/*Example Images*/
+.tierEgImg{
+	border: 3px solid black;
+	border-radius: 9px;
+}
+
+/*Competitive Tiers Page paragraphs/headings*/
+
+.compTierHeading{
+	color: black;
+	background-image: linear-gradient(to top, #1f50cc, #00237d);
+	text-align: center;
+	
+	border: 3px solid black;
+	border-radius: 9px;
+}
+
+p.compTierPar{
+	font-size: 18px;
+	
+	color: black;
+	background-image: linear-gradient(to top, #567fe8, #3663d6);
+	
+	padding: 10px;
+	width:95%;
+	
+	border: 3px solid black;
+	border-radius: 9px;
+}
+
+div.compTierPar{
+	background-image: linear-gradient(to top, #567fe8, #3663d6);
+	border: 3px solid black;
+	border-radius: 9px;
+}
+
+/*Strategy Page*/
+/*Strat Page Backgrounds*/
+#stratPG{
+	background-image: url("imgs/backgrounds/stratBackground.jpg");
+	background-size: cover;
+	background-repeat: repeat;
+}
+
+/*Strat Page Tables*/
+th.stratTableSizing{
+	width: 700px;
+}
+
+/*Strat Page Imgs*/
+.stratPgImgs{
+	border: 3px solid black;
+	border-radius: 9px;
+	width: 100%;
+	height:50%;
+}
+/*Strat Page paragraphs/headings*/
+.stratPgHeading{
+	color: black;
+	background-image: linear-gradient(to top, #c73e1c, #a12c0e);
+	text-align: center;
+	
+	border: 3px solid black;
+	border-radius: 9px;
+}
+
+p.stratPgPar{
+	font-size: 18px;
+	
+	color: black;
+	background-image: linear-gradient(to top, #eb844d, #eb6d4d);
+	
+	padding: 10px;
+	width:95%;
+	height: 95px;
+	
+	border: 3px solid black;
+	border-radius: 9px;
+}
+
+/*Reference Page*/
+/*Reference Pg Background*/
+#referencePg{
+	background-image: url("imgs/backgrounds/refrenceBackground.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+/*Reference table's column size contraint*/
+.referenceTableSize{
+	width:1000px;
+	
+	border: 3px solid black;
+	border-radius: 9px;
+}
+/*Reference Page Table/Heading Background*/
+#referencePgTable{
+	background-image: linear-gradient(to top, #fcd1b3, #fcc6b3);
+	
+	border: 3px solid black;
+	border-radius: 9px;
+}
+
+.referencePgHeading{
+	background-image: linear-gradient(to top, #f5b19a, #f79e81);
+	
+	border: 3px solid black;
+	border-radius: 9px;
+}

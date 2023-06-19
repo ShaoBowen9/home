@@ -1,0 +1,237 @@
+<!doctype html>
+
+<html>
+	<head>
+		<meta charset = "UTF-8">
+		<title>PokeTech Common Info</title>
+		<link rel = "stylesheet" type = "text/css" href = "style.css">
+	</head>
+	<body id = "cInfo">
+		<!-- Nav bar -->
+		<table class = "nav">
+			<tr class = "nav">
+				<th id = "logo"> <a href = "index.html"><img src = "imgs/navBar/logo.png" alt = "logo"></a></th>
+				<th> <a href = "introductionPG.html">Introduction</a> </th>
+				<th> <a href = "commonInfoPG.html">Common Information</a> </th>
+				<th> <a href = "tiersPG.html"> Tiers in Competitive <br> Pokémon </a></th>
+				<th> <a href = "strategies.html"> Common Strategies </a></th>
+				<th> <a href = "reference.html"> Reference </a></th>
+			</tr>
+		</table>
+		<h1 class = "cInfoHeading"> The Basics </h1>
+		<p class = "cInfoPar">To get good at Competitive Pokémon, it is important to understand the basics. To begin, it is good to get familiar with the type matchups. Here
+		is a chart of the effects each typing has on each other, also known as the type match-up chart.
+		</p>
+		<iframe src = "https://www.smogon.com/dex/sm/types/" id = "typechart"></iframe>
+		<h5>Type chart made by smogon</h5>
+		
+		<p class = "cInfoPar"> Each row represents how much a type will do against another. Each column represents if a type is weak or resistant to another. The numbers (1x, 1/2x,
+			2x) represent the damage multiplied depending on if a type is strong, weak, or neutral against another type. Understanding the type matchups can help you pick out a team,
+			severely increasing the damage your team is dealing to the opponents as well as maintaining a good defense.
+		</p>
+		
+		<h1 class = "cInfoHeading"> For example... </h1>
+		<table>
+			<tr>
+				<th> <img src = "imgs/cInfoImgs/teamBuildingWithTypes.png" alt = "Team Building Example"> </th>
+				<th> 
+					<p class = "cInfoPar"> Skuntank is a poison and dark type. Looking at the type match-up chart, the weaknesses and resistances of dark and poison make it so
+						it doesn't have any weaknesses <i>except</i> ground. This way, we can put a water type such as Rotom-Wash on our team to take care of any ground types as
+						ground is weak to water (and Rotom-Wash has levitate, making it immune to ground moves).
+					</p>
+				</th>
+			</tr>
+		</table>
+		
+		<h1 class = "cInfoHeading">Abilities</h1>
+		<p class = "cInfoPar"> Abilites are just as vital as movesets. If you didn't know already, abilities are passive effects each Pokémon has. They each have specific Pokémon
+			that can get the ability. Most abilities can be obtained by multiple Pokémon, but some Pokémon have a <b>signature</b> ability. For example... 
+		</p>
+		
+		<table>
+			<tr>
+				<th> 
+					<p class = "cInfoParLeft"> Here we can see Shedinja has the ability "Wonder Guard". This ability is signature to Shedinja, meaning no other Pokémon can get this
+						ability. If you don't know what an ability does <a href = "https://www.serebii.net/abilitydex/"> you can click here</a> to go to serebii's AbilityDex and
+						search up what the ability does. In this example, Wonder Guard allows Shedinja to ignore all damaging moves unless they're super-effective. Looking on the
+						type chart, we can see the only moves that effect Shedinja are moves that are Dark, Flying, Rock, Fire, or Ghost.
+					</p>
+				</th>
+				<th id = "shedinjaAbility">
+					<img src = "imgs/cInfoImgs/abilities.png" alt = "Abilities Example">
+				</th>
+			</tr>
+			<tr>
+				<th>
+					<img id = "pressure" src = "imgs/cInfoImgs/pokeWithPressure.png" alt = "Pokemon With Pressure">
+				</th>
+				<td>
+					<p class = "cInfoParRight"> However, there are still abilities that aren't signature. For example, a total of 35 Pokémon have pessure. </p>
+				</td>
+			</tr>
+		</table>
+		
+		
+		<h1 class = "cInfoHeading"> Base Stats, EVs, IVs, and Nature </h1>
+		<p class = "cInfoPar"> Though intimidating, Base Stats, EVs, IVs and nature are important subjects in competitive Pokémon. This information will come in handy in team building 
+			and deciding roles each of your team members play. </p>
+		
+		<h1 class = "cInfoHeading"> Base Stats </h1>
+		<img id = "baseStats" src = "imgs/cInfoImgs/baseStats.png" alt = "Base Stat Example">
+		
+		<p class = "cInfoPar"> The most simple is base stats. Each Pokémon has 6 main stats. These stats are Hit Points or Health (HP), Attack (Atk), Defense (Def), 
+		Special Attack (SpA), Special Defense (SpD), and Speed (Spe). Each species of Pokémon has their own unique value of each category, for example Pikachu has a base speed stat 
+		of 90. 
+		<br>
+		<br>
+		For reference, this is a table of what each stat does as well as the Pokémon with the highest and lowest stat of that category. However, it is important to note that 
+		different games (called generations) may have different casts of Pokémon, and the rankings may change. If you want to include any of these Pokémon, check to see if the 
+		generation you’re playing in supports it.
+		</p>
+		
+		<table id = "baseStatTable">
+			<tr>
+				<th>Stat</th>
+				<th>Effect</th>
+				<th>Pokémon with <br> highest stat</th>
+				<th>Pokémon with <br> lowest stat</th>
+			</tr>
+			<tr>
+				<td>Attack (Atk)</td>
+				<td>Determines the damage the physical moves inflict.</td>
+				<td>Mega-Mewtwo X with the base attack stat of 190. This is insanely high as most strong physical Pokémon have a base attack of 130-150. But hey, what do you expect 
+					from a mega legendary?
+				</td>
+				<td>Chansey with a base attack of 5. This is to make up for its outrageous hp stat of 255. </td>
+
+			</tr>
+			<tr>
+				<td>Defense (Def)</td>
+				<td>Determines the resistance of physical moves.</td>
+				<td>Shuckle with a base defense of 230. Who knew a small bug/rock type would rank top in base stats. Unfortunately, shuckle doesn’t have much else going for it 
+					besides its insane defense stats.
+				</td>
+				<td>Chansey with a base defense of 5. It’s impossible to hurt with a special attack but it gets crippled with one physical attack.</td>
+			</tr>
+			<tr>
+				<td>Special Attack (SpA)</td>
+				<td>Determines the damage special moves inflict.</td>
+				<td>Mega-Mewtwo Y with a base special attack of 194. Mega-Mewtwo, X and Y, both rank top for their signature stats.</td>
+				<td>Bonsly with the base special attack stat of 10. It's a crying small rock trying to imitate a bonsai tree. What do you really expect?</td>
+			</tr>
+			<tr>
+				<td>Special Defense (SpD)</td>
+				<td>Determines the resistance of special moves.</td>
+				<td>Shuckle with a base special defense of 230. Shuckle, again, is shocking to be this defensively strong. It makes for a great staller in most teams.</td>
+				<td>Magikarp with the base defense stat of 20. The Pokémon company literally made a song on why this Pokémon is useless.</td>
+			</tr>
+			<tr>
+				<td>Health (HP)</td>
+				<td>Determines the total hit point a Pokémon can get.</td>
+				<td>Blissey and Chansey with a base health of 255. This makes up for its horrendous attack and defense stats of 10, but still makes it a monster to deal with.</td>
+				<td>Shedinja with a base hp of 1. That’s right. It has 1 hit point, but it also has a gimmick ability Wonder Guard which makes it immune to all damaging moves unless it’s super-effective. Neat! </td>
+			</tr>
+			<tr>
+				<td>Speed (Spe))</td>
+				<td>Determines the order in which the turns play out.</td>
+				<td>Regieleki with a base speed of 200. This newly introduced legendary is insanely fast, almost outspeeding any Pokémon without stat changes.</td>
+				<td>Munchlax with the base speed of 5. This gluttonous Pokémon is slower than pretty much every competitor without stat changes.</td>
+			</tr>
+			<tr>
+				<td>Base Stat Total</td>
+				<td>The sum of the base stats of the Pokémon, including every category.</td>
+				<td>The highest base stat total comes to a tie between 3 mega legendaries, Mega-Mewtwo X, Mega-Mewtwo Y, and Mega-Rayquaza with a total of 780.</td>
+				<td>Wishiwashi with the base stat total of 15. After 5 years, it finally replaced sunkern!</td>
+			</tr>
+		</table>
+		
+		<h1 class = "cInfoHeading"> Individual Values (IVs)</h1>
+		<table>
+			<tr>
+				<th> <p class = "cInfoPar"> When you get into competitive Pokémon, you’ll uncover many hidden numbers behind the game. A great example of this would be IVs. IVs stand for Individual Values.
+					When you catch a Pokémon, they get a random set of permanent values for each of the 6 stats. They are a meticulous subject and usually count on luck to get good IVs.
+					However, if you're using Pokémon Showdown you wouldn't need to worry about IVs as they're always set to max.
+				</th>
+				<th>
+					<img id = "ivExample" src = "imgs/cInfoImgs/ivExample.jpg" alt = "IV Example">
+				</th>
+			</tr>
+		</table>
+		
+		<h1 class = "cInfoHeading"> Effort Values (EVs)</h1>
+		<table>
+			<tr>
+				<th> 
+					<p class = "cInfoPar"> Much like IVS, EVs are also hidden numbers. However, unlike IVs, they can be changed. They stand for Effort Values, and they can be complicated to earn. 
+						<br>
+						<br>
+						Your Pokémon can earn 512 EVs in total. Defeating a species of Pokémon gives a specific stat for EVs, for example Ponyta gives 1 speed EV. Each stat can get
+						254 EVs in total, but you can spread the 512 you can earn with each category of stat.
+						<br>
+						<br>
+						Actually earning these EVs is a different story, you must spend hours to defeat a specific type of Pokémon and make sure you don’t defeat any other Pokémon 
+						otherwise your spread wouldn't be right. However, I suggest using Pokémon Showdown. Instead of slowly grinding for these EVs and IVs you can move a slider 
+						up and instantly get max EVs of your choosing.
+					</p>
+				</th>
+				<th>
+					<img id = "evExample" src = "imgs/cInfoImgs/evExample.png" alt = "EV Example">
+				</th>
+			</tr>
+		</table>
+		
+		<h1 class = "cInfoHeading"> Nature </h1>
+		<table>
+			<tr>
+				<th> 
+					<p class = "cInfoPar"> Nature is a trait each individual Pokémon has, unlike base stats where it's the same based on species. There are 25 different nautres that affect specific stats.
+						Every nature increases and decreases a specific stat, some increase and decrease the same stat making no change in the stats. For example, the Bold Nature
+						increases Defense and decreases Attack. Choosing the right nature for you team can give it enough of a stat boost to win games.
+					</p>
+					
+				</th>
+				<th rowspan="2">
+					<p class = "cInfoPar">A list of all the natures and what they do </p>
+					<ul id = "natureList">
+						<li>Adamant (+Atk -Sp.Atk)</li>
+						<li>Bashful (+Sp.Atk - Sp.Atk)</li>
+						<li>Bold (+Def -Atk)</li>
+						<li>Brave (+Atk -Spe)</li>
+						<li>Calm (+Sp.Def -Atk)</li>
+						<li>Careful (+Sp.Def -Sp.Atk)</li>
+						<li>Docile (+Def -Def)</li>
+						<li>Gentle (+Sp.Def -Def)</li>
+						<li>Hardy (+Atk -Atk)</li>
+						<li>Hasty (+Spe -Def)</li>
+						<li>Impish (+Def -Sp.Atk)</li>
+						<li>Jolly (+Spe -Sp.Atk)</li>
+						<li>Lax (+Def -Sp.Def)</li>
+						<li>Lonely (+Atk -Def)</li>
+						<li>Mild (+Sp.Atk -Def)</li>
+						<li>Modest (+Sp.Atk - Atk)</li>
+						<li>Naive (+Spe -Sp.Def)</li>
+						<li>Naughty (+Atk -Sp.Def)</li>
+						<li>Quiet (+Sp.Atk -Spe)</li>
+						<li>Quirky (+Sp.Def -Sp.Def)</li>
+						<li>Rash (+Sp.Atk -Sp.Def)</li>
+						<li>Relaxed (+Def -Spe)</li>
+						<li>Sassy (+Sp.Def -Spe)</li>
+						<li>Serious (+Spe -Spe)</li>
+						<li>Timid (+Spe -Atk)</li>
+					</ul>
+				</th>
+			</tr>
+			<tr>
+				<td><img id = "natureExampleImg" src = "imgs/cInfoImgs/natureExample.png" alt = "Nature Example"></td>
+			</tr>
+		</table>
+		
+		<p>
+			<a href="http://jigsaw.w3.org/css-validator/check/referer">
+				<img style="border:0;width:88px;height:31px"
+					src="http://jigsaw.w3.org/css-validator/images/vcss"
+					alt="Valid CSS!" />
+			</a>
+		</p>
+	</body>
+</html>
